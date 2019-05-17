@@ -1,7 +1,7 @@
 package = "kong-plugin-kitset-group-auth"
-version = "0.1.0-0"
+version = "0.1.0-1"
 source = {
-   url = "git://github.com/superlogical/kong-plugin-kitset-group-auth",
+   url = "http://github.com/Domnom/kong-plugin-kitset-group-auth"
 }
 description = {
   summary = "KongAPI Gateway middleware plugin for authourising users based on keycloak group.",
