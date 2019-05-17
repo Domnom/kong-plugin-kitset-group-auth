@@ -13,7 +13,7 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-    ["kong.plugins.kong-plugin-kitset-group-auth.handler"] = "group-auth/handler.lua",
-    ["kong.plugins.kong-plugin-kitset-group-auth.schema"] = "group-auth/schema.lua"
+    ["kong.plugins.kitset-group-auth.handler"] = "group-auth/handler.lua",
+    ["kong.plugins.kitset-group-auth.schema"] = "group-auth/schema.lua"
    }
 }
